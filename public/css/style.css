@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+
+/*----HEADER----*/
+.header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: groove;
+    border-color: #7651fd;
+    height: 200px;
+    padding: 20px 50px;
+}
+
+/*----NAVBAR-----*/
+.header .navbar {
+    list-style: none;
+    position: sticky;
+    background-color: black !important;
+    top: 0;
+    z-index: 1;
+}
+.header .navbar-toggler-icon{
+background-color: #7651fd;
+}
+.header .navbar-nav{
+    display: flex;
+}
+.header .navbar-nav li{
+    padding: 0px 0px;   
+}
+
+.header .navbar-nav li:hover{
+    transform: scale(1.1);
+}
+header .active{
+color: #7651fd !important;
+}
+.header .navbar-nav a{
+    font-size: 25px;
+    color: #f56bc1;
+    border-style: groove;
+    text-decoration: none;   
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .navbar-nav li a:hover{
+    color: #7651fd;
+}
+@media (max-width: 300px){
+img{
+    display: none;
+}
+}
+
+
+/*-----FOOTER----*/
+footer{
+    padding: 100px ;
+    font-size: 20px;
+    text-align: center;
+    color: #7651fd;
+    border-top: groove;
+    border-color: #7651fd;
+}
+.redes img:hover{
+    transform: scale(1.2);
+}
+
+/*---------------------------------------------PAGE INDEX---------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #f56bc1;
+}
+
+
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 150px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 800px) {
+    .header .navbar span{
+        color: #7651fd;
+        border-style:double;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .header .navbar a{
+        font-size: 18px;
+        padding: 0px;
+        margin-top: 0px;
+        display: flex;
+align-content:stretch;
+justify-content: space-between;
+    }
+    
+}
+
+/*----SECTION----*/
+section article{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+section div p{
+font-size: 25px;
+color:#7651fd;
+}
+section div img{
+border-radius: 10px;
+align-content:stretch;
+}
+
+
+
+/*------------------------------------------------ PAGE SERVICIOS------------------------------------------*/
+.color{
+color: #7651fd;
+font-weight: bold
+}
+.colorDos{
+    color: red;
+    padding-top: 100px;
+}
+
+    /*---------------------------------------------- PAGE GALERIA------------------------------------------*/
+    
+#carouselExample {
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+        padding: 30px;
+        overflow: hidden;
+    justify-content: center;
+
+
+}
+
+.carousel-inner {
+        height: 100%;
+}
+
+.carousel-item {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}   
+
+.carousel-item img {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+}
+    
+.carousel-control-prev-icon , .carousel-control-next-icon{
+        background-color: #7651fd;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: #7651fd;
+}
+
+.gridd{
+padding: 10px;
+
+}
+
+
+/*------------------------------------------------ PAGE NOSOTROS------------------------------------------*/
+.edit{
+    font-size: 25px;
+    padding: 50px;
+    }
+.colorTres{
+    font-weight: bold;
+    color: #7651fd;
+}
+/*------------------------------------------------ PAGE CONTACTO------------------------------------------*/
+
